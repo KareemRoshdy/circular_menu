@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Menu</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="toggle">
+            <i class="fa fa-plus"></i></div>
+            <li style="--i:0;">
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+            <li style="--i:1;">
+                <a href="#"><i class="fa fa-user"></i></a>
+            </li>
+            <li style="--i:2;">
+                <a href="#"><i class="fa fa-cogs"></i></a>
+            </li>
+            <li style="--i:3;">
+                <a href="#"><i class="fa fa-envelope"></i></a>
+            </li>
+            <li style="--i:4;">
+                <a href="#"><i class="fa fa-key"></i></a>
+            </li>
+            <li style="--i:5;">
+                <a href="#"><i class="fa fa-video-camera"></i></a>
+            </li>
+            <li style="--i:6;">
+                <a href="#"><i class="fa fa-gamepad"></i></a>
+            </li>
+            <li style="--i:7;">
+                <a href="#"><i class="fa fa-camera"></i></a>
+            </li>
+       
+    </div>
+
+
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+
+        toggle.onclick = function(){
+            menu.classList.toggle('active');
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
